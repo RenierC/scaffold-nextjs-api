@@ -50,7 +50,7 @@ This will start up the Next.js development server and your site will be availabl
 
 To interact with the local contract, be sure to switch your MetaMask Network to `Localhost 8545`
 
-###[For chainlink oracle](#chainlink-oracle)
+### [For chainlink oracle](#chainlink-oracle)
 
 1. Added a folder in packages/frontend/api
 2. Added a service with functions to interect with the contract in packages/frontend/service
@@ -66,11 +66,11 @@ The functions functions of the api are mapped to the contract functions:
 - s_requestId
 - requestRandomWords
 
-###To run the api requests
+### To run the api requests
 
 - `yarn dev` or `yarn start`
 
-###The endpoints are
+### The endpoints are
 
 - [localhost:3000/api/getRequestId](http://localhost:3000/api/getRequestId)
 - [localhost:3000/api/requestRandomWords](http://localhost:3000/api/requestRandomWords)
