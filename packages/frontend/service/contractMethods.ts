@@ -1,8 +1,5 @@
 import { ethers } from 'ethers'
 
-// const MNEMONIC =
-//   'west palm host divorce sponsor apart eyebrow valid gesture furnace gown palm'
-
 const provider = new ethers.providers.JsonRpcProvider(
   'https://rinkeby.infura.io/v3/ec6a8acd1d354717acec099ad46a0bab'
 )
